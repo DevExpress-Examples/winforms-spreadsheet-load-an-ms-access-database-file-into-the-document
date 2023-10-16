@@ -12,7 +12,7 @@ This example demonstrates how to extend the list of supported files which is di
 
 ## Implementation Details
 
-To extend this list, implement a custom `AccessDBDocumentImporter` class. To add this functionality into an existing project, execute the `SpreadsheetControl.ExtendOpenFileCommand` method:
+To extend this list, implement a custom `AccessDBDocumentImporter` class. To add this functionality to an existing project, execute the `SpreadsheetControl.ExtendOpenFileCommand` method:
 
 ```cs
 spreadsheetControl1.ExtendOpenFileCommand();
